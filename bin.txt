@@ -1,0 +1,48 @@
+<!------------STARTHEADER------------>
+
+                <a href="index.html">
+                    <button class="button" id="september">
+                        <h1>September</h1>
+                    </button>
+                </a>
+                <button class="button" id="october">
+                    <h1>October</h1>
+                </button>
+                <button class="button" id="november">
+                    <h1>November</h1>
+                </button>
+
+<!------------ENDHEADER------------>
+
+
+
+        <div class="gallery-container">
+            <div class="group-container" id="September">
+                <div class="container">
+                    <div class="gallery-header" id="september-heading">
+                        <h1>Godwin</h1>
+                    </div>
+                    <div class="hero-image">
+                        <img src="assets/Godwin/Godwin_cover.jpeg" alt="Godwin backyard" style="width:100%">
+                    </div>
+                </div>
+                <div class="gallery" id="september-content">
+                    <img class="photo" src="assets/Godwin/image_1.jpg" alt="Godwin backyard" onclick="openModal();currentSlide(1)">
+                    <img class="photo" src="assets/Godwin/image_2.png" alt="Godwin backyard" onclick="openModal();currentSlide(2)">
+                    </div>
+            </div>
+            <div class="group-container" id="October">
+                <div class="container">
+                    <div class="gallery-header" id="october-heading">
+                        <h1>Lesshouse</h1>
+                    </div>
+                    <div class="hero-image">
+                        <img src="assets/Godwin/Godwin_cover.jpeg" alt="Godwin backyard" style="width:100%">
+                    </div>
+                </div>
+                <div class="gallery" id="october-content">
+                    <img class="photo" src="assets/image_5.jpeg" alt="October 1" onclick="openModal();currentSlide(5)">
+                    <img class="photo" src="assets/image_6.jpeg" alt="October 2" onclick="openModal();currentSlide(6)">
+                </div>
+            </div>
+        </div>
